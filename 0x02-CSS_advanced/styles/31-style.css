@@ -239,8 +239,8 @@ ul.row {
   display: block;
 }
 
-.social-link svg {
-  color: var(--text-color);
+.social-link, .social-link svg {
+  fill: var(--text-color);
 }
 
 .card-services .card-title {
@@ -331,9 +331,9 @@ ul.row {
 
 .card-work .card-inner {
   position: absolute;
-  top: -1rem;
-  left: -1rem;
-  right: -1rem;
+  top: -0.1rem;
+  left: -0.1rem;
+  right: -0.1rem;
   z-index: 1;
 }
 
